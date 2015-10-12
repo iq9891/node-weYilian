@@ -1,0 +1,55 @@
+.doclist{
+	overflow: hidden;
+	background: #fff;
+}
+.doctor{
+	height:88px;
+	border-bottom: 1px solid #d4d4d4;
+}
+.doctor_l{
+	margin-left: 12px;
+	margin-top: 12px;
+	width:70%;
+}
+.doctor_l .docimg img{
+	width:55px;
+	border:1px solid #d4d4d4;
+}
+.doctor_l .docdetail{
+	margin-left: 68px;
+}
+.doctor_l .docdetail p{
+	margin-bottom: 4px;
+	white-space:nowrap;
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	color:#7c7e7e;
+}
+.doctor_l .docdetail .clearfix p,.doctor_l .docdetail div span {float:left;line-height:20px;}
+.doctor_l .docdetail .clearfix p {margin-bottom:0px;}
+.doctor_l .docdetail .docname{
+	color:#303233;
+	font-weight: 600;
+}
+
+.doctor_r{
+	width:25%;
+	position: relative;
+}
+.doctor_r .yuyue{
+	background: #358b0c;
+}
+.doctor_r .yueman{
+	background: #c8c8c8;
+}
+.doctor_r .yuyue,.doctor_r .yueman{
+	width:42px;
+	height:42px;
+	line-height: 42px;
+	position: absolute;
+	right:12px;
+	top:20px;
+	text-align: center;
+	color:#fff;
+}
+

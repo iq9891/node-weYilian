@@ -1,0 +1,50 @@
+<% include ../layouts/aHeader.ejs %>
+<div class="addclient">
+  <div class="client">
+    <div class="inputName fl">
+      <div class="justify">姓 名<span></span></div>
+    </div>
+    <div class="inputText"><input id='name' placeholder='请输入真实的姓名'  type='text'/></div>
+  </div>
+  <div class="client">
+    <div class="inputName fl">
+      <div class="justify">身份证<span></span></div>
+    </div>
+    <div class="inputText"><input id='codeId' placeholder='请输入真实的身份证号'  type='text'/></div>
+  </div>
+  <div class="client">
+    <div class="inputName fl">
+      <div class="justify">性 别<span></span></div>
+    </div>
+    <div class="inputText clearfix">
+        <div class="sexBox radio2 fl checked"><span class="font-icon">y</span><span>男</span></div>
+        <div class="sexBox radio2 fl"><span class="font-icon">x</span><span>女</span></div>
+    </div>
+  </div>
+  <div class="moblie">
+    <div class="inputName fl">
+      <div class="justify">手机号<span></span></div>
+    </div>
+    <div class="inputText">
+      <input id='tel' placeholder='请输入手机号'  type='text'/>
+      <!-- <span class="sendcode fr radius3">发送验证码</span> -->
+    </div>
+  </div>
+
+  <div class="code">
+    <div class="inputName fl">
+      <div>图片验证码</div>
+    </div>
+    <div class="inputText"><input id='codeImg' placeholder='请输入图片验证码'  type='text'/></div>
+	<img id="code" src="http://192.168.98.32:3000/aCode" />
+  </div>
+
+  <div class="lr-mar-24 info fs14">
+    请认真填写相关信息，提交成功后短信将发送至您填写的手机号码；
+  </div>
+
+  <div class="warp">
+    <div class="btn radius3">提交</div>
+  </div>
+</div>
+<% include ../layouts/aFooter.ejs %>

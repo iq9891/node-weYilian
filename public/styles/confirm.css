@@ -1,0 +1,75 @@
+.confirm{
+	overflow: hidden;
+}
+.doctor{
+	height:88px;
+	background: #fff;
+}
+.doctor_l{
+	margin-left: 12px;
+	margin-top: 12px;
+	width:90%;
+}
+.doctor_l .docimg img{
+	width:55px;
+	border:1px solid #d4d4d4;
+}
+.doctor_l .docdetail{
+	margin-left: 68px;
+}
+.doctor_l .docdetail p{
+	margin-bottom: 4px;
+	white-space:nowrap;
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	color:#7c7e7e;
+}
+.doctor_l .docdetail .docname{
+	color:#303233;
+	font-weight: 600;
+}
+
+.doctor_r{
+	width:25%;
+	position: relative;
+}
+.doctor_r .yuyue{
+	background: #358b0c;
+}
+.doctor_r .yueman{
+	background: #c8c8c8;
+}
+.doctor_r .yuyue,.doctor_r .yueman{
+	width:42px;
+	height:42px;
+	line-height: 42px;
+	position: absolute;
+	right:12px;
+	top:20px;
+	text-align: center;
+	color:#fff;
+}
+.title{
+	margin-top:18px;
+	margin-bottom:6px;
+	margin-left:12px;
+	color:#358b0c;
+	font-weight: 600;
+}
+
+.docdetail{
+	background: #fff;
+}
+
+.docdetail .detail{
+	height:40px;
+	line-height: 40px;
+	border-top: 1px solid #d4d4d4;
+	color:#303233;
+}
+
+.docdetail div:first-child{
+	border-top: 0px solid #d4d4d4;
+}
+
+.warp{margin-top:140px;margin-bottom: 38px;}

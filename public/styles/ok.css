@@ -1,0 +1,27 @@
+.warp{
+	overflow: hidden;
+}
+.icon{
+	height:100px;
+	width:100px;
+	line-height: 100px;
+	background: #65b82c;
+	margin-top:54px;
+}
+
+.icon span{
+	color:#fff;
+	font-size:45px;
+}
+.text1{
+	width: 100%;
+	margin-top:20px;
+	font-size: 18px;
+	color:#65b82c;
+}
+.text2{
+	width: 100%;
+	margin-top:20px;
+	font-size: 16px;
+	color:#303233;
+}

@@ -1,0 +1,24 @@
+<% include ../layouts/aHeader.ejs %>
+<div class="doclist">
+	<% data.docs.forEach(function(doc){%>
+		<div class="doctor clearfix">
+        <div class="doctor_l fl clearfix">
+            <div class="docimg fl"><img class="radius50" src="<% if(doc.image.exists) { %> <%= doc._.image.fit(160,160) %> <% }else{ %> imgs/defaultDocImg.png <% } %>"/></div>
+            <div class="docdetail">
+                <p><span class="docname"><%= doc.name %></span> <span class="fs14"><%= doc.jobTitle %></span></p>
+                <p><span class="fs14"><%= doc.hosp %>-<%= doc.depart %></span></p>
+                <div class="clearfix">
+					<span class="fs14">擅长：</span>
+					<%- doc.good %>
+				</div>
+            </div>
+        </div>
+        <div class="doctor_r fr clearfix">
+            <div class="<% if (doc.state=='预约') { %>yuyue<% }else { %>yueman<% } %> radius3" _id="<%= doc._id %>">
+                <%= doc.state %>
+            </div>
+        </div>
+    </div>
+	<% }) %>
+</div>
+<% include ../layouts/aFooter.ejs %>

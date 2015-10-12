@@ -1,0 +1,60 @@
+.addclient{
+	overflow: hidden;
+}
+.client,.code,.moblie{
+	background: #fff;
+	height:50px;
+	line-height: 50px;
+	border-top:1px solid #d4d4d4;
+}
+.client .inputName,.moblie .inputName{
+	width:50px;
+	margin-left: 12px;
+	color:#303233;
+}
+.client .inputText,.moblie .inputText{
+	margin-left: 86px;
+	margin-right: 12px;
+}
+
+div.justify {text-align: justify;height:50px;}
+div.justify > span { display: inline-block /* Opera */; padding-left: 100%; }
+
+.code .inputName{
+	margin-left: 12px;
+	color:#303233;
+}
+.code .inputText{
+	margin-left: 110px;
+	margin-right: 12px;
+}
+
+.moblie .inputText input{
+	width:50%;
+}
+
+.sendcode{
+	height:24px;
+	line-height:24px;
+	width:70px;
+	margin-top:12px;
+	font-size: 10px;
+	background: #358b0c;
+	color:#fff;
+	text-align: center;
+}
+
+.radio2{margin-right:36px;height:50px;}
+.checked{color: #358b0c;}
+.font-icon{margin-right:6px;}
+
+
+
+.info{
+	margin-top: 18px;
+	color:#7c7e7e;
+}
+.warp{
+	margin-top:122px;
+	margin-bottom: 38px;
+}

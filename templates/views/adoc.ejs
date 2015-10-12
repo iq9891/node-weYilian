@@ -1,0 +1,26 @@
+<% include ../layouts/aHeader.ejs %>
+<div class="doctor">
+   <div class="docdetail">
+        <div class="lr-mar-24">
+            <div class="docimg fl"><img class="radius50" src="<% if(data.doc.image.exists) { %> <%= data.doc._.image.fit(160,160) %> <% }else{ %> imgs/defaultDocImg.png <% } %>"/></div>
+            <div class="doctext">
+                <p><span class="docname"><%= data.doc.name %></span></p>
+                <p><span class="fs14"><%= data.doc.jobTitle %></span></p>
+                <p><span class="fs14"><%= data.doc.hosp %>-<%= data.doc.depart %></span></p>
+            </div>
+        </div>
+   </div>
+   <div class="docskill">
+       <div class="lr-mar-24">
+            <div class="docicon fl radius50"><span class="font-icon">K</span></div>
+            <div class="doctext">
+                <p><span class="docname">擅长</span></p>
+                <p><span class="fs14"><%- data.doc.good %></span></p>
+            </div>
+       </div>
+   </div>
+    <div class="warp">
+        <div class="btn radius3" _id="<%- data.doc._id %>">约专家</div>
+    </div>
+</div>
+<% include ../layouts/aFooter.ejs %>

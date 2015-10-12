@@ -1,0 +1,222 @@
+.addus{
+	overflow: hidden;
+	background: #fff;
+	width:100%;
+	min-width: 320px;
+}
+
+
+.name,.sex,.job,.birthday,.firstworkaddress,.Subject,.type,.trusteeship,.mobile,.mail,.wechat{
+	height:50px;
+	line-height: 50px;
+	border-bottom:1px solid #d4d4d4;
+}
+
+.name .inputName,.sex .inputName,.birthday .inputName,.job .inputName,.firstworkaddress .inputName,.Subject .inputName,.type .inputName,.trusteeship .inputName,.mobile .inputName,.mail .inputName,.wechat .inputName{
+	margin-left: 12px;
+	color:#303233;
+}
+.workintroduction .inputName,.personintroduction .inputName{
+	height:50px;
+	line-height: 50px;
+	margin-left: 12px;
+	color:#303233;
+}
+.workintroduction .textarea,.personintroduction .textarea{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+.workintroduction textarea,.personintroduction textarea{
+	border:1px solid #d4d4d4;
+	background: #f7f7f7;
+	width:100%;
+	height:124px;
+	text-indent: 12px;
+	padding:14px 0;
+}
+.name .inputName,.sex .inputName{
+	width:44px;
+}
+.Subject .inputName,.mobile .inputName,.mail .inputName{
+	width:64px;
+}
+.firstworkaddress .inputName,.trusteeship .inputName{
+	width:122px;
+}
+.firstworkaddress .inputText,.trusteeship .inputText{
+	margin-left:134px;
+}
+.type .inputName,.birthday .inputName,.job .inputName{
+	width:82px;
+}
+.type .inputText,.birthday .inputText,.job .inputText{
+	margin-left: 120px;
+	margin-right: 12px;
+}
+.wechat .inputName{
+	width:76px;
+}
+.wechat .inputText{
+	margin-left: 88px;
+}
+.name .inputText,.sex .inputText{
+	margin-left: 80px;
+	margin-right: 12px;
+}
+
+.Subject .inputText,.mobile .inputText,.mail .inputText{
+	margin-left: 102px;
+	margin-right: 12px;
+}
+
+.radio2{margin-right:36px;height:50px;}
+.checked{color: #358b0c;}
+.font-icon{margin-right:6px;}
+
+.down{
+	width:18px;
+	height:10px;
+	margin-top:20px;
+}
+
+.warp{
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+.content{
+	width:70%;
+	margin:0 auto;
+	text-align: left;
+}
+
+
+.shade{
+	position: fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background: rgba(0,0,0,0.5);
+	z-index: 7;
+	display: none;
+}
+
+.brithinput{
+	min-height: 206px;
+	width:100%;
+	background: #fff;
+	border-top:1px solid #6b6b6b;
+	position: fixed;
+	z-index: 8;
+	position: fixed;
+	bottom: -205px;
+	left:0px;
+	right: 0px;
+	display: none;
+}
+.brithinput .box{
+	background: #f7f7f8;
+	width:100%;
+}
+
+.brithinput .title{
+	height:44px;
+	line-height: 44px;
+}
+
+.brithinput .title div{
+	width:33%;
+}
+
+.blue{
+	color:#007aff;
+}
+
+.brithtext{
+	width:100%;
+	margin-top:45px;
+	margin-bottom:45px;
+	border-top:1px solid #cdcdcd;
+	border-bottom:1px solid #cdcdcd;
+}
+.brithtext div{
+	width:70%;
+	margin:0 auto;
+	height:50px;
+	line-height: 50px;
+
+	text-align: center;
+}
+
+.day,.mouth,.year{
+	width:50px;
+	text-align: center;
+	display: inline-block;
+}
+
+.keyboard{
+	height:200px;
+}
+
+.keyboard .num{
+	width:33%;
+	float: left;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: 600;
+	border-top:1px solid #aaa;
+	border-left:1px solid #aaa;
+}
+.keyboard .first{
+	border-left:0;
+}
+
+
+
+
+
+.select{
+	min-height: 214px;
+	width:100%;
+	background: #fff;
+	border-top:1px solid #6b6b6b;
+	position: fixed;
+	z-index: 8;
+	position: fixed;
+	bottom: 0px;
+	left:0px;
+	right: 0px;
+	display: none;
+}
+.select .box{
+	background: #f7f7f8;
+	width:100%;
+}
+
+.select .title{
+	height:44px;
+	line-height: 44px;
+}
+
+.select .title div{
+	width:33%;
+}
+
+.select .list{
+	height:150px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+.select .list .option{
+	height:50px;
+	line-height: 50px;
+	border-bottom:1px solid #d4d4d4;
+	color:#303233;
+}
+
+
+.del{
+	background: url("../imgs/");
+}

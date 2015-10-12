@@ -1,0 +1,54 @@
+.doctor{
+	overflow: hidden;
+}
+.docdetail{
+	background: #fff;
+	padding:20px 0;
+	margin-bottom: 12px;
+}
+.docdetail .docimg img{
+	width:55px;
+	border:1px solid #d4d4d4;
+}
+.docdetail .doctext{
+	margin-left: 68px;
+}
+.docdetail .doctext p{
+	margin-bottom: 2px;
+	white-space:nowrap;
+	overflow:hidden; 
+	text-overflow:ellipsis;
+}
+.docdetail .doctext .docname{
+	color:#303233;
+	font-weight: 600;
+}
+
+.docskill,.docintroduction,.docworktime{
+	background: #fff;
+	padding:14px 0;
+	margin-bottom: 12px;
+}
+
+.docskill .docicon,.docintroduction .docicon,.docworktime .docicon{
+	width:30px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	font-size:16px;
+	margin-top:2px;
+}
+.docskill .docicon{background: #19c6ff;}
+.docintroduction .docicon{background: #13cfb4;}
+.docworktime .docicon{background: #ffd40a;}
+.docskill .doctext,.docintroduction .doctext,.docworktime .doctext{
+	margin-left: 42px;
+}
+.docskill .doctext p:first-child,.docintroduction .doctext p:first-child,.docworktime .doctext p:first-child{
+	margin-bottom:2px;
+	color:#303233;
+	font-weight: 600;
+}
+
+.warp{margin-top:112px;margin-bottom: 38px;}
